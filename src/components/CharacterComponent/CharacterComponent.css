@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  padding: 10px 5px;
+}
+
+.heading {
+  font-family: "Chakra Petch", sans-serif;
+  font-weight: 400;
+}
+
+.character {
+  padding: 15px 10px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 15px;
+  row-gap: 10px;
+  border-radius: 6px;
+  margin-top: 10px;
+  background: aliceblue;
+}
+
+img {
+  border-radius: 10px;
+}
+
+.details {
+  display: grid;
+  padding: 0px 15px;
+  color: black;
+  justify-content: start;
+  align-items: center;
+  justify-items: start;
+}
+
+p {
+  display: grid;
+  justify-content: start;
+  align-items: center;
+  justify-items: start;
+}

@@ -1,0 +1,23 @@
+.button-contain button {
+  font-family: "Chakra Petch", sans-serif;
+  font-size: 20px;
+  border: none;
+  padding: 10px 7px;
+  background: rgb(137, 117, 252);
+  transition: background, color ease 0.3s;
+}
+
+button:hover {
+  background: rgb(66, 52, 150);
+  color: #fff;
+}
+
+.button-contain {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  column-gap: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
